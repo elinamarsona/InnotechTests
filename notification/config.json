@@ -4,7 +4,7 @@
     "environment": "${ENVIRONMENT}",
     "comment": "${COMMENT}",
     "reportLink": "${BUILD_URL}",
-    "language": "en",
+    "language": "ru",
     "allureFolder": "allure-report",
     "enableChart": true
   },
