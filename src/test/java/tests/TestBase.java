@@ -20,6 +20,10 @@ public class TestBase {
         Configuration.pageLoadStrategy = "eager";
         //Configuration.holdBrowserOpen = true;
         Configuration.remote = System.getProperty("remoteUrl");
+        System.out.println(Configuration.browser);
+        System.out.println(Configuration.browserVersion);
+        System.out.println(Configuration.browserSize);
+        System.out.println(Configuration.remote);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
