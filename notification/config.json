@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "media/icons/usetech-logo.jpg",
+    "project": "${JOB_NAME}",
+    "environment": "${ENVIRONMENT}",
+    "comment": "${COMMENT}",
+    "reportLink": "${BUILD_URL}",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "7881997822:AAHybVIV2r4oSZ3tRVRER9m7rlJ52kTfSmU",
+    "chat": "-1002201948816",
+    "replyTo": ""
+  }
+}
