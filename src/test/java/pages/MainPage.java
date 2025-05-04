@@ -32,7 +32,7 @@ public class MainPage {
     @Step ("Клик по вкладке 'О компании' - 'Контакты'")
     public MainPage clickContactsButton() {
         $$("ul li").findBy(text("О компании")).hover();
-        $$("ul li a").findBy(text("Контакты")).click();
+        $$("ul li a").findBy(text("Контакты")).doubleClick();
         return this;
     }
 
