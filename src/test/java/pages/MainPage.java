@@ -31,14 +31,14 @@ public class MainPage {
 
     @Step ("Клик по вкладке 'О компании' - 'Контакты'")
     public MainPage clickContactsButton() {
-        $$("ul li").findBy(text("О компании")).click();
+        $$("ul li").findBy(text("О компании")).hover();
         $$("ul li a").findBy(text("Контакты")).click();
         return this;
     }
 
     @Step ("Клик по вкладке 'Ресурсы' - 'Мероприятия'")
     public MainPage clickEventsButton() {
-        $$("ul li").findBy(text("Ресурсы")).click();
+        $$("ul li").findBy(text("Ресурсы")).hover();
         $$("ul li a").findBy(text("Мероприятия")).click();
         return this;
     }
