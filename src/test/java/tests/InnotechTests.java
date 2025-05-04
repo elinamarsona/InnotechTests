@@ -48,7 +48,8 @@ public class InnotechTests extends TestBase {
                 .openPage()
                 .clickEventsButton();
 
-        eventsPage.checkEventsTitle();
+        eventsPage
+                .checkEventsTitle();
     }
 
     @Test
