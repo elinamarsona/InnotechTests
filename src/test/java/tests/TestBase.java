@@ -17,7 +17,7 @@ public class TestBase {
         Configuration.browserVersion = System.getProperty("browserVersion", "128.0");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.baseUrl = "https://inno.tech/ru";
-        Configuration.pageLoadStrategy = "normal";
+        Configuration.pageLoadStrategy = "eager";
         //Configuration.holdBrowserOpen = true;
         Configuration.remote = System.getProperty("remoteUrl");
         System.out.println(Configuration.browser);

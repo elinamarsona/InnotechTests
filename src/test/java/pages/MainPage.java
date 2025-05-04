@@ -32,14 +32,22 @@ public class MainPage {
 
     @Step ("Клик по вкладке 'О компании' - 'Контакты'")
     public MainPage clickContactsButton() {
-        $$("ul li").findBy(text("О компании")).hover();
+        actions().moveToElement($$("ul li").findBy(text("О компании")))
+                .pause(500)
+                .click()
+                .perform();
+//        $$("ul li").findBy(text("О компании")).hover();
         $$("ul li a").findBy(text("Контакты")).click();
         return this;
     }
 
     @Step ("Клик по вкладке 'Ресурсы' - 'Мероприятия'")
     public MainPage clickEventsButton() {
-        $$("ul li").findBy(text("Ресурсы")).hover();
+        actions().moveToElement($$("ul li").findBy(text("Ресурсы")))
+                .pause(500)
+                .click()
+                .perform();
+        //$$("ul li").findBy(text("Ресурсы")).hover();
         $$("ul li a").findBy(text("Мероприятия")).click();
         return this;
     }
