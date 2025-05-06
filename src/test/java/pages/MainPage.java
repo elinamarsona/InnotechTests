@@ -37,7 +37,6 @@ public class MainPage {
                 .pause(500)
                 .click()
                 .perform();
-        //$$("ul li a").findBy(text("Контакты")).click();
         return this;
     }
 
@@ -48,7 +47,6 @@ public class MainPage {
                 .pause(500)
                 .click()
                 .perform();
-        //$$("ul li a").findBy(text("Мероприятия")).click();
         return this;
     }
 
